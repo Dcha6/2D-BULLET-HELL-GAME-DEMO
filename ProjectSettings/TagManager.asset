@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - NPC
+  - Bullet
+  - Enemy
+  - teleporter
+  - enemy
+  - Gem
+  - EnemyBullet
+  - EnemyShooter
+  - Left
+  - FollowingBullet
+  - collider
+  - Boss
+  - GemL
+  - GemR
+  - GemB
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Bullets
+  - Collider
+  - Bullets2
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: background
+    uniqueID: 1999115563
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: foreground
+    uniqueID: 356849607
+    locked: 0
+  - name: decoration
+    uniqueID: 851995117
+    locked: 0
+  - name: player
+    uniqueID: 3583610273
+    locked: 0
