@@ -1,0 +1,741 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1716748556899520, "dur": 447996, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1716748556899735, "dur": 7949, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1716748556907686, "dur": 32564, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1716748556940280, "dur": 188374, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1716748557128656, "dur": 204367, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1716748557333025, "dur": 14490, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1716748557347816, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1716748557015830, "dur": 91795, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1716748557016654, "dur": 36954, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1716748557095329, "dur": 3602, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1716748557098933, "dur": 8686, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1716748557099453, "dur": 7552, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1716748557111420, "dur": 1202, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1716748557110446, "dur": 2193, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1716748557347871, "dur": 150, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1716748557160505, "dur":1721, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557162231, "dur":64, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1716748557162324, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1716748557162342, "dur":343, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1716748557162710, "dur":595, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557163305, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557312835, "dur":234, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313070, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313077, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313078, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313083, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313085, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313089, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313091, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313094, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313095, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313100, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313101, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313104, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313105, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313110, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313111, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313115, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313116, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313120, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313122, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313126, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313127, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313130, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313132, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313136, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313147, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557313165, "dur":1259, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1716748557162904, "dur":406, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557163312, "dur":4079, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557167397, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1716748557167408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557167841, "dur":348, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1716748557168192, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1716748557168216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557168537, "dur":3298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1716748557171837, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1716748557171853, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557171884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557172906, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1716748557174001, "dur":11111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557185116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557185122, "dur":3377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557188517, "dur":8211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557196731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557196738, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557198526, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557198543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557198549, "dur":4552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557203114, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557203131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557203137, "dur":3888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557207038, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557207049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557207053, "dur":12100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557219166, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557219181, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557219186, "dur":8066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557227266, "dur":6671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557233941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557233947, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557237018, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557237038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557237044, "dur":9622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557246678, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557246690, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557246694, "dur":7109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557253819, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557253834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557253838, "dur":11929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1716748557265784, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1716748557265957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557267563, "dur":3992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1716748557271570, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1716748557271587, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557271591, "dur":7205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1716748557278814, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets16.assets" }}
+,{ "pid":12345, "tid":1, "ts":1716748557278823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557278826, "dur":9671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets16.assets" }}
+,{ "pid":12345, "tid":1, "ts":1716748557288506, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1716748557288516, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557288519, "dur":4581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1716748557293113, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1716748557293128, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557293132, "dur":3105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1716748557296251, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level12" }}
+,{ "pid":12345, "tid":1, "ts":1716748557296265, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1716748557296269, "dur":2808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level12" }}
+,{ "pid":12345, "tid":1, "ts":1716748557299089, "dur":13744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557162924, "dur":390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557163314, "dur":4082, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557167397, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1716748557167431, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557167525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557170262, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1716748557172065, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1716748557172084, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557172161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557172432, "dur":3317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1716748557175830, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557175851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557175855, "dur":4938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557180808, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557180833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557180839, "dur":3538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557184389, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557184426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557184432, "dur":3787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557188228, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557188239, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557188243, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557191726, "dur":12673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557204403, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557204409, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557207742, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557207759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557207766, "dur":14379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557222155, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557222166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557222170, "dur":5054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557227239, "dur":8626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557235868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557235873, "dur":11170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557247053, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557247068, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557247072, "dur":7130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557254213, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557254224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557254228, "dur":15718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1716748557269982, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":2, "ts":1716748557270050, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557270056, "dur":6223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":2, "ts":1716748557276288, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets19.assets" }}
+,{ "pid":12345, "tid":2, "ts":1716748557276302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557276306, "dur":10212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets19.assets" }}
+,{ "pid":12345, "tid":2, "ts":1716748557286534, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets11.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1716748557286553, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557286557, "dur":4862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets11.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1716748557291432, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level9" }}
+,{ "pid":12345, "tid":2, "ts":1716748557291449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557291454, "dur":2541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level9" }}
+,{ "pid":12345, "tid":2, "ts":1716748557294007, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level19" }}
+,{ "pid":12345, "tid":2, "ts":1716748557294021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557294024, "dur":3454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level19" }}
+,{ "pid":12345, "tid":2, "ts":1716748557297490, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1716748557297504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1716748557297508, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1716748557299535, "dur":13300, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557162947, "dur":372, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557163319, "dur":4076, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557167398, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1716748557167457, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557167553, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557170852, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1716748557172408, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557172427, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557172503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557172507, "dur":10167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557182689, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557182712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557182717, "dur":3188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557185916, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557185928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557185931, "dur":3371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557189311, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557189325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557189329, "dur":2900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557192244, "dur":6079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557198347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557198354, "dur":3588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557201951, "dur":10845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557212801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557212808, "dur":10492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557223317, "dur":16556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557239876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557239882, "dur":11671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557251568, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557251589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557251595, "dur":13547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557265161, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557265179, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557265184, "dur":5227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1716748557270425, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1716748557270445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557270451, "dur":6183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1716748557276642, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets18.assets" }}
+,{ "pid":12345, "tid":3, "ts":1716748557276653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557276657, "dur":10302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets18.assets" }}
+,{ "pid":12345, "tid":3, "ts":1716748557286969, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets10.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1716748557286979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557286982, "dur":4479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets10.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1716748557291481, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level8" }}
+,{ "pid":12345, "tid":3, "ts":1716748557291498, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557291505, "dur":3118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level8" }}
+,{ "pid":12345, "tid":3, "ts":1716748557294636, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level17" }}
+,{ "pid":12345, "tid":3, "ts":1716748557294648, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557294651, "dur":3162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level17" }}
+,{ "pid":12345, "tid":3, "ts":1716748557297822, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1716748557297832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1716748557297835, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1716748557299550, "dur":13289, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557162966, "dur":356, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557163322, "dur":4075, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557167398, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1716748557167456, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557167537, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557171132, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1716748557172564, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1716748557172584, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557172603, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557172607, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1716748557174253, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557174268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557175033, "dur":4549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557179600, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557179624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557179630, "dur":3311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557182955, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557182975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557182981, "dur":3407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557186397, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557186424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557186428, "dur":3398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557189837, "dur":5041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557194882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557194890, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557195982, "dur":4729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557200715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557200722, "dur":3854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557204592, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557204609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557204615, "dur":3687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557208316, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557208433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557209016, "dur":14280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557223313, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557223345, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557223349, "dur":4565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557227933, "dur":7512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557235448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557235455, "dur":10853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557246330, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557246342, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557246346, "dur":5481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557251839, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557251861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557251866, "dur":13738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557265617, "dur":9838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557275458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557275462, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1716748557278474, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets16.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1716748557278488, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557278493, "dur":8782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets16.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1716748557287289, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":4, "ts":1716748557287304, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557287308, "dur":4538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":4, "ts":1716748557291859, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1716748557291872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557291876, "dur":3334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1716748557295221, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level15" }}
+,{ "pid":12345, "tid":4, "ts":1716748557295232, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1716748557295236, "dur":3392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level15" }}
+,{ "pid":12345, "tid":4, "ts":1716748557298640, "dur":14201, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557162989, "dur":337, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557163326, "dur":4065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557167397, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1716748557167451, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557167531, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557170534, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1716748557171969, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1716748557171988, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557172006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557172332, "dur":3123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1716748557175478, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557175506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557175512, "dur":4411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557179938, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557179959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557179965, "dur":3157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557183136, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557183153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557183159, "dur":4045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557187212, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557187225, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557187230, "dur":3558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557190802, "dur":5909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557196715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557196721, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557198533, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557198548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557198554, "dur":4409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557202978, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557202996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557203002, "dur":3171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557206186, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557206203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557206228, "dur":10817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557217061, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557217077, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557217081, "dur":8019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557225114, "dur":5217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557230335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557230344, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557231345, "dur":6642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557237990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557237996, "dur":12753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557250761, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557250774, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557250796, "dur":14111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557264926, "dur":6098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557271050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557271056, "dur":3711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":5, "ts":1716748557274780, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1716748557274792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557274796, "dur":10522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1716748557285328, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":5, "ts":1716748557285341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557285344, "dur":5305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":5, "ts":1716748557290658, "dur":2328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1716748557292989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557292993, "dur":2201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1716748557295203, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level16" }}
+,{ "pid":12345, "tid":5, "ts":1716748557295212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557295215, "dur":3383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level16" }}
+,{ "pid":12345, "tid":5, "ts":1716748557298606, "dur":1046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1716748557299666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1716748557299670, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1716748557300338, "dur":12507, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557163013, "dur":317, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557163330, "dur":4065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557167398, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1716748557167429, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557167460, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557169796, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1716748557172031, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1716748557172047, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557172072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557172426, "dur":3593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1716748557176034, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557176058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557176063, "dur":4574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557180663, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557180681, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557180687, "dur":3340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557184042, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557184059, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557184063, "dur":3387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557187462, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557187478, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557187483, "dur":4044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557191539, "dur":5922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557197465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557197471, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557199581, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557199600, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557199605, "dur":4560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557204179, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557204195, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557204200, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557207807, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557207894, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557207900, "dur":14457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557222373, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557222385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557222389, "dur":5099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557227502, "dur":11653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557239158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557239163, "dur":11708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557250882, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557250895, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557250899, "dur":13851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557264769, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557264806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557264811, "dur":5044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1716748557269870, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":6, "ts":1716748557269886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557269891, "dur":6294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":6, "ts":1716748557276199, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1716748557276212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557276217, "dur":10082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1716748557286313, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":6, "ts":1716748557286328, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557286332, "dur":4352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":6, "ts":1716748557290698, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1716748557290713, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557290718, "dur":3057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1716748557293794, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1716748557293825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557293830, "dur":3619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1716748557297456, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1716748557297465, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1716748557297468, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1716748557299448, "dur":13382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716748557163029, "dur":304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716748557163333, "dur":4061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716748557167398, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1716748557167474, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716748557167559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716748557171360, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1716748557172655, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO.exe" }}
+,{ "pid":12345, "tid":7, "ts":1716748557172670, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716748557172673, "dur":28656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO.exe" }}
+,{ "pid":12345, "tid":7, "ts":1716748557201347, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716748557201364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716748557201369, "dur":3216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716748557204598, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716748557204616, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716748557204621, "dur":3613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716748557208253, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716748557208293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716748557208299, "dur":14892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716748557223204, "dur":8988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716748557232196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716748557232202, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716748557234547, "dur":7378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716748557241929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716748557241935, "dur":9730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716748557251680, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716748557251699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716748557251702, "dur":13884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716748557265601, "dur":18319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716748557283922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716748557283926, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1716748557285362, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets12.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1716748557285375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716748557285378, "dur":5178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets12.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1716748557290564, "dur":2598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1716748557293165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716748557293170, "dur":3071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1716748557296254, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level11" }}
+,{ "pid":12345, "tid":7, "ts":1716748557296267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1716748557296271, "dur":2847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level11" }}
+,{ "pid":12345, "tid":7, "ts":1716748557299130, "dur":13701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557163048, "dur":288, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557163336, "dur":4062, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557167399, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1716748557167446, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557167529, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557170249, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1716748557172149, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1716748557172166, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557172191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557172196, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1716748557173565, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1716748557173603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557174425, "dur":3882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1716748557178331, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557178393, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557178401, "dur":3417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557181829, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557181840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557181844, "dur":3434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557185294, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557185318, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557185324, "dur":3333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557188666, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557188680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557188686, "dur":3288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557191988, "dur":10011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557202001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557202006, "dur":3153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557205171, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557205187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557205193, "dur":11496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557216705, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557216721, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557216726, "dur":6009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557222744, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557222755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557222759, "dur":5149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557227929, "dur":5988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557233921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557233928, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557235475, "dur":7040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557242518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557242523, "dur":9113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557251650, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557251670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557251675, "dur":13821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557265510, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557265525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557265530, "dur":5797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1716748557271342, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1716748557271414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557271419, "dur":7530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1716748557278961, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":8, "ts":1716748557278993, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557278997, "dur":9529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets15.assets" }}
+,{ "pid":12345, "tid":8, "ts":1716748557288535, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1716748557288545, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557288548, "dur":3826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1716748557292383, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level5" }}
+,{ "pid":12345, "tid":8, "ts":1716748557292392, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557292395, "dur":3173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level5" }}
+,{ "pid":12345, "tid":8, "ts":1716748557295579, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level14" }}
+,{ "pid":12345, "tid":8, "ts":1716748557295589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1716748557295592, "dur":3221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level14" }}
+,{ "pid":12345, "tid":8, "ts":1716748557298825, "dur":14011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557163071, "dur":268, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557163339, "dur":4053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557167398, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1716748557167436, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557167480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557169918, "dur":2170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1716748557172101, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1716748557172116, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557172172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557172439, "dur":3201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1716748557175657, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557175678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557175683, "dur":4545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557180242, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557180261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557180293, "dur":3628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557183930, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557183944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557183950, "dur":3271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557187231, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557187242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557187246, "dur":2799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557190056, "dur":28275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557218333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557218342, "dur":8650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557227005, "dur":7863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557234872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557234958, "dur":5174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557240148, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557240165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557240171, "dur":11319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557251501, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557251518, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557251523, "dur":13594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557265131, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557265150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557265155, "dur":5205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1716748557270374, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":9, "ts":1716748557270390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557270394, "dur":6252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":9, "ts":1716748557276655, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets17.assets" }}
+,{ "pid":12345, "tid":9, "ts":1716748557276665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557276669, "dur":10112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets17.assets" }}
+,{ "pid":12345, "tid":9, "ts":1716748557286793, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":9, "ts":1716748557286811, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557286814, "dur":4856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":9, "ts":1716748557291683, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level7" }}
+,{ "pid":12345, "tid":9, "ts":1716748557291697, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557291700, "dur":2903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level7" }}
+,{ "pid":12345, "tid":9, "ts":1716748557294614, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level18" }}
+,{ "pid":12345, "tid":9, "ts":1716748557294629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557294634, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level18" }}
+,{ "pid":12345, "tid":9, "ts":1716748557297074, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1716748557297083, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1716748557297086, "dur":2163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1716748557299260, "dur":13572, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716748557163091, "dur":251, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716748557163342, "dur":4064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716748557167406, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1716748557167477, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716748557167548, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716748557170526, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1716748557172325, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716748557172342, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716748557172363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716748557172824, "dur":2493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716748557175341, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716748557175360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716748557175402, "dur":4535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716748557179954, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716748557179973, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716748557179979, "dur":3170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716748557183164, "dur":30119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716748557213285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716748557213290, "dur":10015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716748557223327, "dur":88487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716748557311818, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1716748557311825, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1716748557312813, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1716748557312814, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557163106, "dur":239, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557163345, "dur":4067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557167412, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1716748557167437, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557167496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557170312, "dur":2006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1716748557172328, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557172342, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557172374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557172871, "dur":5043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557177936, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557177958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557177965, "dur":3795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557181781, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557181800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557181805, "dur":3311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557185131, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557185149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557185155, "dur":3385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557188550, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557188574, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557188577, "dur":3295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557191887, "dur":8461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557200351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557200356, "dur":3746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557204117, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557204136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557204161, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557207625, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557207646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557207652, "dur":15065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557222726, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557222739, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557222743, "dur":4889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557227646, "dur":4470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557232120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557232127, "dur":2378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557234551, "dur":6332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557240909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557240915, "dur":10620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557251545, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557251562, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557251569, "dur":13577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557265161, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557265179, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557265184, "dur":9254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1716748557274450, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1716748557274467, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557274472, "dur":8049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1716748557282536, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets14.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1716748557282549, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557282553, "dur":7686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets14.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1716748557290248, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1716748557290272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557290275, "dur":3033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1716748557293320, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1716748557293335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557293339, "dur":3253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level3" }}
+,{ "pid":12345, "tid":11, "ts":1716748557296603, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level10" }}
+,{ "pid":12345, "tid":11, "ts":1716748557296616, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1716748557296619, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level10" }}
+,{ "pid":12345, "tid":11, "ts":1716748557299411, "dur":13427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557163124, "dur":224, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557163348, "dur":4051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557167399, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1716748557167440, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557167526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557170302, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1716748557172264, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1716748557172278, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557172302, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557172308, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1716748557173775, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557173803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557175032, "dur":4123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557179174, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557179195, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557179200, "dur":3167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557182378, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557182395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557182401, "dur":3443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557185862, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557185885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557185891, "dur":3464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557189369, "dur":6421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557195794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557195800, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557196890, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557196912, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557196918, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557198700, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557198717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557198723, "dur":4699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557203436, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557203451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557203457, "dur":3828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557207298, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557207320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557207326, "dur":14690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557222039, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557222061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557222066, "dur":5392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557227471, "dur":5776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557233251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557233258, "dur":2026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557235299, "dur":9526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557244828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557244833, "dur":6737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557251582, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557251597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557251602, "dur":13132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557264750, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557264772, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557264779, "dur":4954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1716748557269748, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1716748557269764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557269783, "dur":4726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1716748557274523, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets20.assets" }}
+,{ "pid":12345, "tid":12, "ts":1716748557274540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557274545, "dur":8239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets20.assets" }}
+,{ "pid":12345, "tid":12, "ts":1716748557282799, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":12, "ts":1716748557282814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557282819, "dur":7528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":12, "ts":1716748557290356, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1716748557290365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557290368, "dur":3027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1716748557293406, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level20" }}
+,{ "pid":12345, "tid":12, "ts":1716748557293420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557293425, "dur":2285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level20" }}
+,{ "pid":12345, "tid":12, "ts":1716748557295720, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level13" }}
+,{ "pid":12345, "tid":12, "ts":1716748557295729, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1716748557295732, "dur":3364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Program Files/Unity Games/2D bullet hell demo/2D BULLET HELL DEMO_Data/level13" }}
+,{ "pid":12345, "tid":12, "ts":1716748557299109, "dur":13728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1716748557316193, "dur":1784, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1716748557348067, "dur": 2017, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1716748557347806, "dur": 2301, "ph": "X", "name": "Write chrome-trace events", "args": {} },

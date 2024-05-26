@@ -53,6 +53,7 @@ public class Dialog : MonoBehaviour
             dialogBox.SetActive(false);
             SceneManager.LoadScene(NextScene);
 
+
         }
     }
    
